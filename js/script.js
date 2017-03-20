@@ -5,13 +5,13 @@ $(function() {
 Load Page
 ---------------------------------------------*/
 		
-	$('.portfolio-grid').waitForImages({
-		finished: function() {
-				Website();
-				$('body').jKit();
-		},
-		waitForAll: false
-	});
+	// $('.portfolio-grid').waitForImages({
+	// 	finished: function() {
+	// 			Website();
+	// 			$('body').jKit();
+	// 	},
+	// 	waitForAll: false
+	// });
 
 
 /*-------------------------------------------
