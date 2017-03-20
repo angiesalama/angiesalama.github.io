@@ -5,7 +5,7 @@ $(function() {
 Load Page
 ---------------------------------------------*/
 		
-	$('body').waitForImages({
+	$('.portfolio-grid').waitForImages({
 		finished: function() {
 				Website();
 				$('body').jKit();
@@ -42,7 +42,7 @@ Ajax link page transitions
             $('#ajax-content').html($(data).filter('#ajax-content').html());
             $('#ajax-sidebar').html($(data).filter('#ajax-sidebar').html());
 
-						$('body').waitForImages({
+						$('.portfolio-grid').waitForImages({
 							finished: function() {
 								Website();
 								backLoading();
