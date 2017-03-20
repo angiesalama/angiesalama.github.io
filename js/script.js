@@ -10,7 +10,7 @@ Load Page
 				Website();
 				$('body').jKit();
 		},
-		waitForAll: false
+		waitForAll: true
 	});
 
 
@@ -48,7 +48,7 @@ Ajax link page transitions
 								backLoading();
 								$('.opacity-nav').delay(50).fadeOut(600);
               },										
-              waitForAll: false
+              waitForAll: true
 						});								
 					},1000);
 					},0);
