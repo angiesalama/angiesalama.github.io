@@ -10,7 +10,7 @@ Load Page
 				Website();
 				$('body').jKit();
 		},
-		waitForAll: true
+		waitForAll: false
 	});
 
 
@@ -171,7 +171,7 @@ $(document).ready(function(){
             strings: ["show case ", "projects"],
             typeSpeed: 100,
             backDelay: 500,
-            loop: false,
+            loop: true,
             contentType: 'html', // or text
             // defaults to false for infinite loop
             loopCount: false,
