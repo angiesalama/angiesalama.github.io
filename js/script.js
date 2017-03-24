@@ -10,7 +10,7 @@ Load Page
 				Website();
 				$('body').jKit();
 		},
-		waitForAll: true
+		waitForAll: false
 	});
 
 
@@ -48,7 +48,7 @@ Ajax link page transitions
 								backLoading();
 								$('.opacity-nav').delay(50).fadeOut(600);
               },										
-              waitForAll: true
+              waitForAll: false
 						});								
 					},1000);
 					},0);
@@ -168,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["show case ", "projects ", "Designs/Work"],
+            strings: ["show case ", "projects ", "Designs", "Work"],
             typeSpeed: 100,
             backDelay: 500,
             loop: true,
@@ -177,7 +177,7 @@ $(document).ready(function(){
             loopCount: false,
         });
     }
-	}, 3000);
+	}, 4500);
 });
 }
 
