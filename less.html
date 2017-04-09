@@ -168,6 +168,17 @@ of the decision help option. And connect with others who are on the same journey
     });
   </script>
 
+  <script type='text/javascript'>
+
+    window.onload = function() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
+    }
+
+</script>
+
 
 </body>
 </html>
