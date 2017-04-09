@@ -81,7 +81,6 @@ function Website() {
 		CheckScripts();		
 		Masonry();
 		$('body').jKit();
-    var myLazyLoad = new LazyLoad();
 		backgroundmenu();
 		setTimeout(function(){
 			$(".preloader").fadeOut(100);							
