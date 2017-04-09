@@ -276,8 +276,6 @@
   <script type="text/javascript" charset="utf-8">
   $(function() {
      $("img.lazy").lazyload();
-     { data_attribute: "data-original" 
-        });
   });
   </script>
   <script type='text/javascript'>
@@ -285,6 +283,9 @@
     window.onload = function() {
         if(!window.location.hash) {
             window.location = window.location + '#loaded';
+            $(function() {
+                  $("img.lazy").lazyload();
+              });
             window.location.reload();
         }
     }
