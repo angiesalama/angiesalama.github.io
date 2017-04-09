@@ -34,7 +34,7 @@ Ajax link page transitions
         if (typeof history.pushState != 'undefined') history.pushState(data, 'Page', link);
         
           setTimeout(function(){						
-          $('#preloader').delay(50).fadeIn(600);
+          $('#preloader').delay(10).fadeIn(600);
           $('html, body').delay(10).animate({ scrollTop:  0  },1000);						
 					
 					setTimeout(function(){
@@ -81,9 +81,10 @@ function Website() {
 		CheckScripts();		
 		Masonry();
 		$('body').jKit();
+    var myLazyLoad = new LazyLoad();
 		backgroundmenu();
 		setTimeout(function(){
-			$(".preloader").fadeOut(500);							
+			$(".preloader").fadeOut(100);							
 		},2000);
 		setTimeout(function(){
 			$('header').fadeIn();							
@@ -213,7 +214,7 @@ Open Check Scription
 function OpenCheck() {
     setTimeout(function() {
         hidePreloader();
-    }, 1000);
+    }, 500);
 }
 
 
@@ -237,7 +238,7 @@ function showPreloader() {
 }
 
 function hidePreloader() {
-  $(".preloader").delay(500).fadeOut("slow");
+  $(".preloader").delay(100).fadeOut("slow");
 }
 
 
