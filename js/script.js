@@ -82,12 +82,12 @@ function Website() {
 		Masonry();
 		$('body').jKit();
 		backgroundmenu();
-		setTimeout(function(){
-			$(".preloader").fadeOut(100);							
-		},500);
-		setTimeout(function(){
-			$('header').fadeIn();							
-		},500);
+	//	setTimeout(function(){
+	//		$(".preloader").fadeOut(100);							
+	//	},500);
+	//	setTimeout(function(){
+	//		$('header').fadeIn();							
+	//	},500);
 }
 
 
