@@ -35,7 +35,7 @@ Ajax link page transitions
         
           setTimeout(function(){						
           $('#preloader').delay(50).fadeIn(600);
-          $('html, body').delay(50).animate({ scrollTop:  0  },1000);						
+          $('html, body').delay(10).animate({ scrollTop:  0  },1000);						
 					
 					setTimeout(function(){
 							
@@ -170,7 +170,7 @@ $(document).ready(function(){
         $(".typewrite span").typed({
             strings: ["show case ", "projects ", "Designs", "Work"],
             typeSpeed: 100,
-            backDelay: 500,
+            backDelay: 50,
             loop: true,
             contentType: 'html', // or text
             // defaults to false for infinite loop
@@ -237,7 +237,7 @@ function showPreloader() {
 }
 
 function hidePreloader() {
-  $(".preloader").delay(2000).fadeOut("slow");
+  $(".preloader").delay(500).fadeOut("slow");
 }
 
 
