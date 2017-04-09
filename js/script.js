@@ -84,7 +84,7 @@ function Website() {
 		backgroundmenu();
 		setTimeout(function(){
 			$(".preloader").fadeOut(100);							
-		},2000);
+		},500);
 		setTimeout(function(){
 			$('header').fadeIn();							
 		},500);
